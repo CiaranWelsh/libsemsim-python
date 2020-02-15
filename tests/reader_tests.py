@@ -14,7 +14,7 @@ class Test(unittest.TestCase):
     def setUp(self) -> None:
         # write to file
         with open(self.filename, 'wb') as f:
-            f.write(teusnik2000)
+            f.write(teusnik2000.encode('utf-8'))
 
     def tearDown(self) -> None:
         if os.path.isfile(self.filename):
@@ -27,6 +27,10 @@ class Test(unittest.TestCase):
     def test_read_from_string(self):
         reader = Reader(teusnik2000)
         self.assertIsInstance(reader, Reader)
+
+    def test_r(self):
+        reader = Reader(teusnik2000)
+        print(reader._get_rdf_element())
 
 
 

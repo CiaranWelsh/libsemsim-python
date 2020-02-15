@@ -1,4 +1,4 @@
-teusnik2000 = """<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <!-- This model was downloaded from BioModels Database -->
 <!-- http://www.ebi.ac.uk/biomodels-static/                   -->
 <!-- Wed Feb 12 20:37:12 GMT 2020                      -->
@@ -2884,4 +2884,3 @@ teusnik2000 = """<?xml version='1.0' encoding='UTF-8' standalone='no'?>
         </listOfReactions>
     </model>
 </sbml>
-"""
