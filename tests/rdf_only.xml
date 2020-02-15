@@ -1,0 +1,78 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:bqmodel="http://biomodels.net/model-qualifiers/"
+         xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+    <rdf:Description rdf:about="#metaid_0000002">
+        <dc:creator>
+            <rdf:Bag>
+                <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                        <vCard:Family>Snoep</vCard:Family>
+                        <vCard:Given>Jacky L</vCard:Given>
+                    </vCard:N>
+                    <vCard:EMAIL>jls@sun.ac.za</vCard:EMAIL>
+                    <vCard:ORG rdf:parseType="Resource">
+                        <vCard:Orgname>Stellenbosh University</vCard:Orgname>
+                    </vCard:ORG>
+                </rdf:li>
+                <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                        <vCard:Family>Endler</vCard:Family>
+                        <vCard:Given>Lukas</vCard:Given>
+                    </vCard:N>
+                    <vCard:EMAIL>lukas@ebi.ac.uk</vCard:EMAIL>
+                    <vCard:ORG rdf:parseType="Resource">
+                        <vCard:Orgname>EMBL-EBI</vCard:Orgname>
+                    </vCard:ORG>
+                </rdf:li>
+                <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                        <vCard:Family>Dharuri</vCard:Family>
+                        <vCard:Given>Harish</vCard:Given>
+                    </vCard:N>
+                    <vCard:EMAIL>hdharuri@cds.caltech.edu</vCard:EMAIL>
+                    <vCard:ORG rdf:parseType="Resource">
+                        <vCard:Orgname>California Institute of Technology</vCard:Orgname>
+                    </vCard:ORG>
+                </rdf:li>
+            </rdf:Bag>
+        </dc:creator>
+        <dcterms:created rdf:parseType="Resource">
+            <dcterms:W3CDTF>2008-09-16T14:00:06Z</dcterms:W3CDTF>
+        </dcterms:created>
+        <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2012-07-19T18:26:07Z</dcterms:W3CDTF>
+        </dcterms:modified>
+        <bqmodel:is>
+            <rdf:Bag>
+                <rdf:li rdf:resource="http://identifiers.org/biomodels.db/MODEL6623915522"/>
+            </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:is>
+            <rdf:Bag>
+                <rdf:li rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000064"/>
+            </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:isDescribedBy>
+            <rdf:Bag>
+                <rdf:li rdf:resource="http://identifiers.org/pubmed/10951190"/>
+            </rdf:Bag>
+        </bqmodel:isDescribedBy>
+        <bqbiol:hasTaxon>
+            <rdf:Bag>
+                <rdf:li rdf:resource="http://identifiers.org/taxonomy/4932"/>
+            </rdf:Bag>
+        </bqbiol:hasTaxon>
+        <bqbiol:is>
+            <rdf:Bag>
+                <rdf:li rdf:resource="http://identifiers.org/kegg.pathway/sce00010"/>
+                <rdf:li rdf:resource="http://identifiers.org/obo.go/GO:0006096"/>
+            </rdf:Bag>
+        </bqbiol:is>
+        <bqbiol:isHomologTo>
+            <rdf:Bag>
+                <rdf:li rdf:resource="http://identifiers.org/reactome/REACT_723"/>
+            </rdf:Bag>
+        </bqbiol:isHomologTo>
+    </rdf:Description>
+</rdf:RDF>
