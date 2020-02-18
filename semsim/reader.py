@@ -64,11 +64,6 @@ class ReaderWithLibSBML:
         self._doc = self._read_sbml()
 
     def _read_sbml(self):
-        """
-        Read input into :py:class:`lxml._ElementTree`
-        :return:
-        """
-
         reader = libsbml.SBMLReader()
         # if input is xml string
         if self.input.startswith('<?xml'):
@@ -80,9 +75,14 @@ class ReaderWithLibSBML:
         pass
 
     def is_annotated(self):
+        print('')
         print(self._doc.getAnnotation())
         print(self._doc.getAnnotationString())
         print(self._doc.isSetAnnotation())
         for i in sorted(dir(self._doc)):
+            print(i)
+
+        print('')
+        for i in sorted(dir(libsbml)):
             print(i)
 

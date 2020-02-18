@@ -64,6 +64,10 @@ class TestReaderWithLibSBML(unittest.TestCase):
         doc = reader._read_sbml()
         self.assertIsInstance(doc, libsbml.SBMLDocument)
 
+    def test_isannotated(self):
+        reader = ReaderWithLibSBML(self.filename)
+        reader.is_annotated()
+
 
 class TestReaderBIOMD(TestReaderWithLXML):
     biomodels_id = 'BIOMD0000000065'
