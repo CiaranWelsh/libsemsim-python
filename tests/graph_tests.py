@@ -5,10 +5,10 @@ import rdflib
 import os
 
 site.addsitedir('..')
-from semsim import Reader, Writer
+from semsim import Reader
 from .model_strings import teusnik2000
 
-class WriterTests(unittest.TestCase):
+class GraphTests(unittest.TestCase):
 
     def setUp(self) -> None:
         reader = Reader(teusnik2000)
